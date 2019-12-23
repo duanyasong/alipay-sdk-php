@@ -1,0 +1,22 @@
+{
+    "name": "duanyasong/alipay-sdk-php",
+    "description": "alipay-sdk-php composer for magento2.3.x",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+     {
+      "name": "Mark Duan",
+      "email": "mark.duan@silksoftware.com"
+     }
+    ],
+    "autoload" : {
+        "psr-0":{
+		      "duanyasong\\alipay-sdk-php\\": "src/aop/"
+		}
+    }
+}
