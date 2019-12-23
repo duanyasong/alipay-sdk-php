@@ -14,9 +14,7 @@
       "email": "mark.duan@silksoftware.com"
      }
     ],
-    autoload : {
-	"files" : [
-	"autoload.php"
-	]
+    "autoload": {
+      "files": ["autoload.php"]
     }
 }
