@@ -6,7 +6,7 @@
 		if(file_exists($file)){
 			require_once($file);
 		}
-		$file = __DIR__ . 'src/aop/request/'.$class.'.php';
+		$file = __DIR__ . '/src/aop/request/'.$class.'.php';
 		if(file_exists($file)){
 			require_once($file);
 		}
